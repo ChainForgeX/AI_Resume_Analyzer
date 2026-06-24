@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-import API from "../services/api";
+import API from "./api";
 
 import UploadResume
-from "../components/UploadResume";
+from "./UploadResume";
 
 import AnalysisCard
-from "../components/AnalysisCard";
+from "./AnalysisCard";
 
 function Home() {
 
